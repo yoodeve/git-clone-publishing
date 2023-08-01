@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/font.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="header-left">
+        <div class="ham-btn grey-border">
+          <i class="fa-solid fa-bars gr-fo"></i>
+        </div>
+        <div class="logo">
+          <svg
+            height="32"
+            aria-hidden="true"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="32"
+            data-view-component="true"
+            class="octicon octicon-mark-github v-align-middle color-fg-default"
+          >
+            <path
+              d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+            ></path>
+          </svg>
+        </div>
+        <div class="nick">yoodeve</div>
+      </div>
+      <div class="header-right">
+        <button class="input-btn grey-border" type="text">
+          <i class="magnify-glass-icon gr-fo fa-solid fa-magnifying-glass"></i>
+          <div class="placeholder gr-fo">Type / to search</div>
+          <div class="vertical-divider search-divider po-ab"></div>
+          <i class="terminal-icon po-ab fa-solid fa-terminal"></i>
+        </button>
+        <div class="vertical-divider"></div>
+        <div class="plus-btn gr-el gr-fo">
+          <span class="btn-content"><i class="fa-solid fa-plus"></i></span>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+        <div class="square-btn icon-box gr-el">
+          <i class="fa-regular fa-circle"></i>
+        </div>
+        <div class="square-btn icon-box gr-el">
+          <i class="fa-solid fa-code-pull-request"></i>
+        </div>
+        <div class="square-btn icon-box gr-el">
+          <i class="fa-regular fa-paste"></i>
+        </div>
+        <div class="profile-pic">
+          <img
+            src="https://avatars.githubusercontent.com/u/96562253?v=4"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <div class="menu-container">
+      <ul class="menu-list-wrapper">
+        <li class="menu-list"><i class="fa-solid fa-book-open"></i><div>Overview</div></li>
+        <li class="menu-list"><i class="fa-solid fa-book"></i><div>Repositories</div></li>
+        <li class="menu-list"><i class="fa-solid fa-table-cells-large"></i><div>Projects</div></li>
+        <li class="menu-list"><i class="fa-solid fa-cube"></i><div>Packages</div></li>
+        <li class="menu-list"><i class="fa-regular fa-star"></i><div>Stars</div></li>
+      </ul>
+    </div>
+    <main>
+      <div class="app-container">
+        <div class="profile-area">
+          <a class="main-profile-pic"
+            ><img
+              src="https://avatars.githubusercontent.com/u/96562253?v=4"
+              alt="프로필이미지"
+          /></a>
+          <div class="name-area">
+            <div class="nickname">yooj</div>
+            <div class="id">yoodeve</div>
+          </div>
+          <div class="follow-btn gr-el">follow</div>
+          <div class="status">
+            <i class="fa-solid fa-users"></i><span>298 follow</span> ·
+            <span>80 following</span>
+          </div>
+          <div class="divider"></div>
+          <h2 class="achievement">Achievements</h2>
+          <a>
+            <div class="shark-img">
+              <img
+                src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png"
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+
+        <div class="repo-area">
+          <div class="repository">
+            <div class="repo-header">
+              <div class="repo-header-left">
+                <input type="text" placeholder="Find a repository" />
+                <div class="repo-btn">
+                  Type<i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="repo-btn">
+                  Language<i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="repo-btn">
+                  Sort<i class="fa-solid fa-caret-down"></i>
+                </div>
+              </div>
+
+              <div class="repo-btn green-btn">
+                New<i class="fa-solid fa-caret-down"></i>
+              </div>
+            </div>
+            <ul class="repoository-list">
+              <li class="repository-wrapper">
+                <div class="repo-title-box">
+                  <div>
+                    <div class="repo-title-area">
+                      <div class="repo-title"><a href="">repository1</a></div>
+                      <div class="open-info-box">Public</div>
+                    </div>
+                    <div class="repo-subtitle gr-fo">repository detail</div>
+                  </div>
+                  <div class="star-selector gr-el">
+                    <div class="star-area gr-fo fo-700">
+                      <i class="fa-regular fa-star gr-fo"></i> Star
+                    </div>
+                    <div class="arrow-box">
+                      <i class="fa-solid fa-caret-down gr-fo"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="detail-info-wrapper">
+                  <div class="language-icon js"></div>
+                  <span class="gr-fo fo-12">&nbsp;Javascript</span>
+                  <span class="gr-fo fo-12">Updated last week</span>
+                </div>
+              </li>
+              <li class="repository-wrapper">
+                <div class="repo-title-box">
+                  <div>
+                    <div class="repo-title-area">
+                      <div class="repo-title"><a href="">repository1</a></div>
+                      <div class="open-info-box">Public</div>
+                    </div>
+                    <div class="repo-subtitle gr-fo">repository detail</div>
+                  </div>
+                  <div class="star-selector gr-el">
+                    <div class="star-area gr-fo fo-700">
+                      <i class="fa-regular fa-star gr-fo"></i> Star
+                    </div>
+                    <div class="arrow-box">
+                      <i class="fa-solid fa-caret-down gr-fo"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="detail-info-wrapper">
+                  <div class="language-icon java"></div>
+                  <span class="gr-fo fo-12">&nbsp;Java</span>
+                  <span class="gr-fo fo-12">Updated last week</span>
+                </div>
+              </li>
+              <li class="repository-wrapper">
+                <div class="repo-title-box">
+                  <div>
+                    <div class="repo-title-area">
+                      <div class="repo-title"><a href="">repository1</a></div>
+                      <div class="open-info-box">Public</div>
+                    </div>
+                    <div class="repo-subtitle gr-fo">repository detail</div>
+                  </div>
+                  <div class="star-selector gr-el">
+                    <div class="star-area gr-fo fo-700">
+                      <i class="fa-regular fa-star gr-fo"></i> Star
+                    </div>
+                    <div class="arrow-box">
+                      <i class="fa-solid fa-caret-down gr-fo"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="detail-info-wrapper">
+                  <span class="gr-fo fo-12">Updated last week</span>
+                </div>
+              </li>
+              <li class="repository-wrapper">
+                <div class="repo-title-box">
+                  <div>
+                    <div class="repo-title-area">
+                      <div class="repo-title"><a href="">repository1</a></div>
+                      <div class="open-info-box">Public</div>
+                    </div>
+                    <div class="repo-subtitle gr-fo">repository detail</div>
+                  </div>
+                  <div class="star-selector gr-el">
+                    <div class="star-area gr-fo fo-700">
+                      <i class="fa-regular fa-star gr-fo"></i> Star
+                    </div>
+                    <div class="arrow-box">
+                      <i class="fa-solid fa-caret-down gr-fo"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="detail-info-wrapper">
+                  <div class="language-icon java"></div>
+                  <span class="gr-fo fo-12">&nbsp;Java</span>
+                  <span class="gr-fo fo-12">Updated last week</span>
+                </div>
+              </li>
+              <li class="repository-wrapper">
+                <div class="repo-title-box">
+                  <div>
+                    <div class="repo-title-area">
+                      <div class="repo-title"><a href="">repository1</a></div>
+                      <div class="open-info-box">Public</div>
+                    </div>
+                    <div class="repo-subtitle gr-fo">repository detail</div>
+                  </div>
+                  <div class="star-selector gr-el">
+                    <div class="star-area gr-fo fo-700">
+                      <i class="fa-regular fa-star gr-fo"></i> Star
+                    </div>
+                    <div class="arrow-box">
+                      <i class="fa-solid fa-caret-down gr-fo"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="detail-info-wrapper">
+                  <div class="language-icon js"></div>
+                  <span class="gr-fo fo-12">&nbsp;Javascript</span>
+                  <span class="gr-fo fo-12">Updated last week</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
